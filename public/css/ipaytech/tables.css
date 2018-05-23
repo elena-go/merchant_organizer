@@ -1,0 +1,256 @@
+/*Export Buttons*/
+.csv_btn{
+    margin-right: 6px;
+    padding: 8px;
+    border: 0;
+    border-radius: 0;
+    background-color: #789e56;
+    opacity: 0.6;
+}
+.pdf_btn{
+    padding: 8px;
+    border: 0;
+    border-radius: 0;
+    background-color: #698faf;
+    opacity: 0.6;
+}
+/*Overview page's tables'*/
+table{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    color: #2b3035;
+    font-size: 13px;
+}
+table a{
+    color: #4f4e4e;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #e8edec;
+}
+#wires th,#merchants th, #users th, #bank th, #billing th {
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #6f97ba;
+    color: #ffffff;
+    text-align: center;
+}
+#wires tr td{
+    border-bottom: 1px dotted #e8edec;
+    padding-left: 8px;
+}
+#users th,#bank th,#merchants th, #billing th{
+    padding: 8px 0;
+}
+#wires .wire_status{
+    width: 200px !important;
+    padding-left: 3px;
+}
+.foot > .wires_counting_entries{
+    float: right;
+}
+/*Merchant's profile'*/
+.merch_prof{
+    width:100%;
+    margin-bottom: 23px;
+}
+.merch_prof tr td:first-child{
+    width:150px;
+}
+/*Popup*/
+.popup_tbl{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #29405c;
+}
+.popup_tbl tr td{
+    line-height: 1.5em;
+}
+.popup_tbl tr td:first-child{
+    color: #728ba8;
+}
+.popup_tbl tr td span{
+    margin-left: 10px;
+}
+.top-row{
+    margin-right: 0px;
+}
+.top-row .balance_title_tbl tr td, .statistic_balance_wrapper .balance_title_tbl tr td{
+    padding-right: 3px;
+
+}
+.balance_wrapper .balance_title_tbl tr td, .statistic_balance_wrapper .balance_title_tbl tr td{
+    padding: 3px 0;
+    color: #6f97ba;
+}
+.balance_wrapper .balance_values_tbl tr td.curr_title, .statistic_balance_wrapper .balance_values_tbl tr td.curr_title{
+    text-align: center;
+    color: #6f97ba;
+}
+.balance_wrapper .balance_values_tbl tr td, .statistic_balance_wrapper .balance_values_tbl tr td{
+    padding: 3px 8px;
+    border-right: 1px dotted #e8edec;
+}
+.statistic_balance_wrapper .wire_count_wrapper, .statistic_balance_wrapper .balance_table_wrapper{
+    margin:13px auto 13px 0;
+}
+#users tbody tr td{
+    padding-left: 8px;
+}
+#user_overview_top_row{
+    margin-bottom: 30px;
+}
+#user_overview_top_row h2{
+    padding-top: 15px;
+}
+#bank tbody tr td a{
+    color: #6f97ba;
+    transition: ease-in 0.3s;
+}
+#bank tbody tr td a:hover,#bank tbody tr td a:focus{
+    color: #4f4e4e;
+    text-decoration: none;
+}
+.edit_merch_table_wrapper tr td:first-child, .add_merch_table_wrapper tr td:first-child{
+    width: 200px;
+}
+.edit_merch_table_wrapper tr td .mobile_code, .add_merch_table_wrapper tr td .mobile_code{
+    width: 100%;
+}
+.edit_merch_table_wrapper tr td .mobile_phone, .add_merch_table_wrapper tr td .mobile_phone{
+    width: 100%;
+}
+.edit_merch_table_wrapper tr td table.currency_and_bank_table th, .add_merch_table_wrapper tr td table.currency_and_bank_table th{
+    text-align: center;
+}
+.edit_merch_table_wrapper tr td table.currency_and_bank_table tr td:first-child, .add_merch_table_wrapper tr td table.currency_and_bank_table tr td:first-child{
+    border-right: 1px dotted #6f97ba;
+}
+.edit_merch_table_wrapper tr td table.currency_and_bank_table tr td,.add_merch_table_wrapper tr td table.currency_and_bank_table tr td{
+    padding: 0 13px;
+}
+#fee_accordion h3{
+    text-align: left;
+    padding-left: 30px;
+}
+#fee_accordion h3{
+    border-radius: 0;
+    border:0;
+    border-left: 1px dotted #6f97ba;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+#fee_accordion h3 input[type=number]{
+    text-align: center;
+    color: #6f97ba;
+}
+#fee_accordion div{
+    border: 0;
+    border-left: 1px dotted #6f97ba;
+}
+#fee_accordion div table tr.different_fee{
+    color: #a04646;
+}
+#fee_accordion div table tr td{
+    padding: 3px;
+}
+.add_merch_fee_table tr td{
+    padding: 3px;
+}
+.add_merch_fee_table tr td:first-child{
+    width: 100px;
+}
+.add_merch_fee_table tr td input[type=number]{
+    width: 100px;
+    border: 1px dotted #e8edec;
+    text-align: center;
+}
+div.top-row{
+    margin-bottom: 15px;
+}
+.statistic_balance_wrapper{
+    margin-bottom: 13px;
+}
+.balance_title_tbl tr td{
+    padding-left: 5px;
+}
+.statistics_info_accordion h3, .statistics_info_accordion div{
+    background-image: none;
+    background-color: #ffffff;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    border-left: 1px dotted #6f97ba;
+}
+.statistics_info_accordion div table{
+    border-left: 1px dotted #6f97ba;
+    margin-bottom: 13px;
+}
+.statistics_info_accordion div table tr:first-child{
+    font-weight: 600;
+}
+.statistics_info_accordion div table tr td:first-child{
+    padding-left: 5px;
+    color: #6f97ba;
+    line-height: 1.6em;
+}
+.statistics_info_accordion div table tr td:last-child{
+    padding-left: 13px;
+}
+.dataTables_filter input[type=search]{
+    border: 1px dotted #e8edec;
+    border-radius:0;
+}
+.dataTables_length label,.dataTables_filter label, .dataTables_info{
+    color: #6f97ba;
+}
+
+.pagination>li>a, .pagination>li>a:focus, .pagination>li>a:hover,.pagination>li>span, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #4f4e4e;
+    background-color: #e8edec;
+    border: 0;
+}
+.pagination>a,
+.pagination>a:focus,
+.pagination>a:hover{
+    color: #6f97ba;
+    cursor: pointer ;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: transparent;
+}
+.pagination>span,
+.pagination>span:focus,
+.pagination>span:hover{
+    color: #4f4e4e;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: transparent;
+}
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover{
+    color: #6f97ba;
+    cursor: default;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: transparent;
+}
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover{
+    color: #4f4e4e;
+    cursor: default;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-color: transparent;
+}
+#merch_list{
+    margin-top: 8px;
+}
+.deletedWires, .deletedUser, .deletedMerch, .deletedBank, #merch_list{
+    display: none;
+}

@@ -1,0 +1,10 @@
+<link type="text/css" href="{{ asset('css/ipaytech/multi-select.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/additional_info.css') }}" rel="stylesheet"/>
+<link type="text/css" href="{{ asset('css/ipaytech/contact_us.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/style.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/heading.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/navigation.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/tables.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/filters.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/forms.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ipaytech/details.css') }}" rel="stylesheet">

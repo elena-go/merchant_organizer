@@ -1,0 +1,10 @@
+<link type="text/css" href="{{ asset('css/ewalletweb/multi-select.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/additional_info.css') }}" rel="stylesheet"/>
+<link type="text/css" href="{{ asset('css/ewalletweb/contact_us.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/style.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/heading.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/navigation.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/tables.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/filters.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/forms.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ asset('css/ewalletweb/details.css') }}" rel="stylesheet">

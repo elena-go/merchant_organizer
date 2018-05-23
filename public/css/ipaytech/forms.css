@@ -1,0 +1,162 @@
+/*Archive form*/
+.yes-btn, .no-btn{
+    border-radius: 0;
+    border:0;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px 0 15px;
+    transition: ease-in 0.3s;
+    font-size: 16px;
+}
+.no-btn{
+    background-color: #698faf;
+    color: #ffffff;
+    margin-right: 50px;
+}
+.no-btn:focus{
+    background-color: #6f97ba;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 18px 0 18px;
+}
+.no-btn:hover{
+    background-color: #6f97ba;
+    color: #ffffff;
+}
+.yes-btn{
+    background-color: #a04646;
+    color: #ffffff;
+}
+.yes-btn:focus{
+    background-color: #a52c2c;
+    font-size: 17px;
+    padding: 18px 0 18px;
+}
+.yes-btn:hover{
+    background-color: #a52c2c;
+}
+/*Form & Inputs*/
+.form_wrapper{
+    background-color: #ffffff;
+    padding: 15px 15px 0;
+    font-size: 14px;
+}
+.form-tbl{
+    background-color: #ffffff;
+    color: #29405c;
+}
+.star{
+    position: relative;
+    font-size: 18px;
+    font-weight: 800;
+    color: #6f97ba;
+}
+textarea {
+    resize: none;
+}
+.merch_bank_display{
+    height: 100px;
+    background-color: #ffffff;
+}
+input::-webkit-input-placeholder {
+    color: #6f97ba;
+    font-size: 14px;
+    padding: 3px 5px;
+    opacity: 0.6;
+}
+input:-moz-placeholder { /* Firefox 18- */
+    color: #6f97ba;
+    font-size: 14px;
+    padding: 3px 5px;
+    opacity: 0.6;
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #6f97ba;
+    font-size: 14px;
+    padding: 3px 5px;
+    opacity: 0.6;
+}
+input:-ms-input-placeholder {  
+    color: #6f97ba;
+    font-size: 14px;
+    padding: 3px 15px;
+    opacity: 0.6;
+}
+input[type="text"], textarea, select,input[type="email"]{
+    color: #4f4e4e;
+    border: 1px dotted #c0d1e5;
+    width: 100%;
+    padding: 3px 5px;
+}
+.mobile_code{
+    width: 70px;
+    padding: 1.5px 5px;
+}
+.mobile_phone{
+    width:100%;
+}
+input[type="text"].amount-inp{
+    width: 59%;
+    padding: 5px 3px; 
+}
+.currency-inp{
+    width: 40%;
+}
+.btn-back{
+    float: left;
+    background-color: #698faf;
+    color: #e8edec;
+    width: 45%;
+    border-radius: 0;
+    border:0;
+    padding: 15px 0 15px;
+    transition: ease-in 0.2s;
+    font-size: 14.5px;
+}
+.btn-back:focus{
+    background-color: #6f97ba;
+    color: #ffffff;
+    font-size: 15.5px;
+}
+.btn-back:hover{
+    background-color: #6f97ba;
+    color: #ffffff;
+}
+.submit{
+    float: right;
+    margin: 0 0 15px;
+    background-color: #789e56;
+    color: #e8edec;
+    width: 45%;
+    border-radius: 0;
+    border:0;
+    padding: 15px 0 15px;
+    transition: ease-in 0.2s;
+    font-size: 14.5px;
+}
+.submit:focus{
+    background-color: #6e8e4f;
+    color: #ffffff;
+    font-size: 15.5px;
+}
+.submit:hover{
+    background-color: #6e8e4f;
+    color: #ffffff;
+}
+.wire-edit-form .wc-radio-btn{
+    margin-left: 15px;
+}
+h2.edit_bank_h2, h2.edit_merch_h2{
+    line-height: 2.5em;
+}
+#edit_bank_form_wrapper table tr td.open_curr_file{
+    transition: ease-in 0.3s;
+}
+#edit_bank_form_wrapper table tr td.open_curr_file:hover,#edit_bank_form_wrapper table tr td.open_curr_file:focus{
+    font-size: 15px;
+}
+.info_wire_popup{
+    width: 600px;
+    padding-left: 80px;
+    margin: 50px auto;
+}

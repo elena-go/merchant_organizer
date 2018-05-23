@@ -1,0 +1,102 @@
+/*
+white - #f4f4f4;
+dark-wite - #e5eadc;
+green - #6c7a63;
+dark green - #2f3d2a;
+dark grey - #09190c;
+*/
+body {
+    text-decoration: none;
+    padding-top: 50px;
+    font-family: "Hind Vadodara";
+    background-color: #e8edec;
+    color: #0c1014;
+    margin: 0;
+    overflow-x: auto;
+    overflow-y:auto;
+}
+h1, h3{
+    text-align: center;
+    font-family: "Raleway";
+}
+h2{
+    color: #4f4e4e;
+    margin-top: -3px;
+    text-align: center;
+}
+img{
+    width: 600px;
+    margin: 10px auto;
+}
+.modal-content{
+    margin: 40px 0 0 -300px;
+    width: 1200px;
+}
+/*Row of balance*/
+.top-row, .top-row .btn-wrapper{
+    margin-top: 10px;
+}
+.total-count-wrapper{
+    background-color: #ffffff;
+    text-align: center;
+}
+.total-count-title{
+    font-size: 14px;
+}
+.total-count-output{
+    color: #728ba8;
+    font-size: 18px;
+    line-height: 2.0em;
+}
+.balance-wrapper{
+    float: right;
+}
+.balance-box2, .balance-box{
+    line-height: 0.8em;
+    background-color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    float: right;
+}
+.balance-box2{
+    text-align: right;
+    font-weight: bolder;
+}
+.balance-box2 h3, .balance-box h3{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.merch-id{
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    margin-left: 13px;
+}
+.merch-id:hover{
+    color: #728ba8;
+}
+#dialog{
+    color: #29405c;
+}
+/*Responsibility*/
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        line-height: 1.3em;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #ffffff;
+        border-right: 1px solid #c9d3e0;
+    }
+    .main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+

@@ -1,0 +1,43 @@
+.info-wrapper{
+    text-align: justify;
+}
+h1, h3{
+    text-align: center;
+    font-family: "Raleway";
+}
+h3, .definitions-wrapper p strong, .faq-wrapper table th, .faq-wrapper table tr td span{
+    font-weight: 400;
+    color: #5c9acf;
+    font-size: 16.5px;
+}
+.q-td{
+    font-weight: 600;
+}
+.definitions-wrapper, .faq-wrapper, .useful-links{
+    background-color: #ffffff;
+    min-height: 300px;
+    margin-left: 25px;
+}
+.definitions-wrapper p{
+    margin: 0;
+    list-style-type: none;
+    padding-top: 8px;
+    color: #223544;
+}
+.faq-wrapper table{
+    border: 0;
+}
+.useful-links h3{
+    padding-bottom: 12px;
+}
+.useful-links a{
+    background-color: #bdcdd6;
+    padding: 8px;
+    color: #ffffff;
+    transition: ease-in 0.2s;
+}
+.useful-links a:hover{
+    background-color: #5c9acf;
+    padding: 8px;
+    text-decoration: none;
+}

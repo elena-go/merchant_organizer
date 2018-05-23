@@ -1,0 +1,2 @@
+<link href='https://fonts.googleapis.com/css?family=Hind+Vadodara|Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>

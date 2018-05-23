@@ -1,0 +1,32 @@
+.top-header{
+    background-color: #6f97ba;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(56,56,56,0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(56,56,56,0.3);
+    box-shadow: 0px 2px 5px 0px rgba(56,56,56,0.3);
+}
+.top-header .header-logo{
+    font-size: 25px;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.top-header .header-logo:hover{
+    color: #e8edec;
+}
+.top-header .header-date-display{
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 11px;
+}
+.top-header .header-name-display{
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 11px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.top-header .header-logout, .top-header .header-logout a span{
+    font-size: 16px;
+}
+.navbar-fixed-top {
+    border: 0;
+}

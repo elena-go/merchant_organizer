@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/chart.js/2.0.2/Chart.min.js"></script>
+    <script src="{{ asset('lib/chart/chart.js') }}"></script>
+    <script src="{{ asset('js/chart-builder.js') }}"></script>
+    
+    <style>
+        div.chart-area
+        {
+            width:800px;
+            height:500px;
+        }
+    </style>
+    <script>
+
+        var fake =
+        {
+            columns: [ 'sid', 'id', 'position', 'created at', 'created meta', 'updated at', 'updated meta', 'meta data', 'birth year', 'sex', 'ethnic group', 'name', 'count', 'rank'],
+
+            rows: 
+            [
+                [ 1, "EB6FAA1B-EE35-4D55-B07B-8E663565CCDF", 1, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GERALDINE", 13, 25 ]
+                , [ 2, "2DBBA431-D26F-40A1-9375-AF7C16FF2987", 2, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GIA", 21, 67 ]
+                , [ 3, "54318692-0577-4B21-80C8-9CAEFCEDA8BA", 3, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GIANNA", 49, 42]
+                , [ 4, "17C1236A-5778-412D-8DC9-94EBC01BB9A1", 4, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GISELLE", 38, 51 ]
+                , [ 5, "F53CF696-A3F4-4EC3-8DFD-10C0A111B2D8", 5, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GRACE", 36, 53 ]
+                , [ 6, "6615893F-39B8-440C-98D3-5A37CCF1C44B", 6, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "GUADALUPE", 26, 62 ]
+                , [ 7, "CC9BE461-34B8-4BD7-BEF2-BDB23CA1ADC6", 7, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "HAILEY", 89, 18 ]
+                , [ 8, "4EA2FFD4-1B1D-4859-A5C2-045949E3FD36", 8, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "HALEY", 14, 44 ]
+                , [ 9, "9EBA09D5-2A05-4DAC-8478-85A5A2A36169", 9, 1386881925, "399231", 1386881925, "399231", "{\n}", "2011", "FEMALE", "HISPANIC", "HANNAH", 17, 71]
+
+            ],
+
+            views: ['count', 'rank']
+            
+        };
+
+        $(function ()
+        {
+            var columns = [, ]
+
+            var demoChart = new ChartBuilder($('canvas.demo'), fake,
+            {
+                type: 'line',
+                data: {
+                    labelsColumn: 'name',
+                    datasets:
+                    [
+                        {
+                            label: '# of children with that name',
+                            backgroundColor: '#B2EBF2',
+                            borderColor: '#4DD0E1',
+                            borderWidth: 1,
+                            opacity:0.8
+                        },
+
+                        {
+                            label: 'the average name rank',
+                            backgroundColor: '#D1C4E9',
+                            borderColor: '#7E57C2',
+                            //pointBackgroundColor: '#D1C4E9',
+                            //pointBorderColor: '#7E57C2',
+                            borderWidth: 1,
+                            opacity: 0.8
+                        },
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+
+
+            $('button.add').click(function ()
+            {
+                var index = parseInt(Math.random() * fake.rows.length);
+
+                demoChart.append(fake.rows[index]);
+            });
+
+            $('button.reset').click(function ()
+            {
+                fake.rows = fake.rows.slice(0, 9);
+
+                demoChart.refresh(fake);
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+    <div class="chart-area">
+        <canvas class="demo"></canvas>
+    </div>
+
+   <button class="add">Add</button>
+   <button class="reset">Reset</button>
+</body>
+</html>

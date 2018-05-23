@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding-top: 120px;
+    width: 100%;
+    display: table;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #c9d3e0;
+    background-image: url("../../images/login_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0c1014;
+}
+h1, h3{
+    font-family: 'Raleway', sans-serif;
+}
+h4{
+    margin-bottom: 25px;
+    color: #4f4e4e;
+}
+p{
+    font-family: 'Hind Vadodara', sans-serif;
+    line-height: 1.5em;
+}
+.login-form-wrapper{
+    margin: 30px auto;
+    background-color: rgba(255,255,255, 0.6);
+}
+.form-signin-heading{
+    line-height: 1.5em;
+    color: #4f4e4e;
+}
+.loginform{
+    width:100%;
+}
+.email, .password, .submit{
+    border:0;
+    border-radius: 0;
+    height: 45px;
+}
+input[type=text], input[type=password]{
+    background-color: #ffffff;
+    color: #0c1014;
+}
+input::-webkit-input-placeholder {
+    color: #6f97ba !important;
+    font-size: 16px !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+    color: #6f97ba !important;
+    font-size: 16px !important;
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #6f97ba !important;
+    font-size: 16px !important;
+}
+input:-ms-input-placeholder {  
+    color: #6f97ba !important;
+    font-size: 16px !important;
+}
+.submit{
+    background-color: #6f97ba;
+    color: #ffffff;
+    width:95%;
+    transition: ease-in 0.3s;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.submit:hover{
+    background-color: #789e56;
+    color: #ffffff;
+    font-weight: 500;
+}
+.reset-pass{
+    line-height: 0.8em;
+    font-size: 14px;
+    text-align: left;
+}
+.contact-us p{
+    line-height: 0.8em;
+    font-size: 14px;
+    text-align: right;
+}
+.mail{
+    font-style: italic;
+    color: #4f4e4e;
+    font-weight: bold;
+}
+.lem-wrapper{
+    border: 2px solid #a52c2c;
+    margin: -30px 0 15px;
+}
+.em-txt{
+    background-color: #a52c2c;
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+}
+span{
+    padding: 8px 0 0 8px;
+}

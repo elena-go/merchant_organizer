@@ -1,0 +1,29 @@
+.left-nav-wrapper{
+    width: 130px;
+    color: #2b3035;
+}
+.left-nav-wrapper ul{
+    margin-bottom: 15px;
+}
+.left-nav-wrapper ul li a{
+    padding: 3px;
+    font-size: 12px;
+    line-height: 1.8em;
+    transition: ease-in 0.1s;
+    color: #2b3035;
+}
+.left-nav-wrapper li a:hover{
+    background-color: #6f97ba;
+    color: #ffffff;
+}
+.content-wrapper{
+    padding-left: 35px;
+}
+/*Left navigation style*/
+.sidebar{
+    font-size: 12px;
+}
+.icon-style{
+    font-size: 13px;
+    color: #ffffff;
+}
